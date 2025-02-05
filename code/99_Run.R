@@ -17,12 +17,6 @@ renv::restore(
   clean = TRUE,
   prompt = FALSE)
 
-# Set R, knitr and project-specific options
-source(file.path(here::here(), "code", "00_Setup_01_Options.R"))
-
-# Define file paths
-source(file.path(here::here(), "code", "00_Setup_02_Paths.R"))
-
 # Define functions to write to stdout and stderr
 source(file.path(here::here(), "code", "01_Functions_00_write_output_to_stdout_or_stderr.R"))
 
