@@ -13,7 +13,6 @@
 
 # Restore the project's dependencies from the lockfile
 renv::restore(
-  rebuild = TRUE,
   clean = TRUE,
   prompt = FALSE)
 
